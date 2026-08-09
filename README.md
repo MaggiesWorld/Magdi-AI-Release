@@ -14,7 +14,6 @@ Magdi-AI is an AI-powered Quality Assurance Platform that helps QA professionals
 - Multiple LLM providers
     - OpenAI
     - Anthropic Claude
-    - Ollama
 - KPI Dashboard
 - Activity Feed
 
@@ -34,3 +33,23 @@ See TUTORIAL.md for a quick walkthrough.
 See FAQ.md for common questions.
 
 Thank you for trying Magdi-AI!
+
+
+## Known Issues
+
+### Duplicating Work Items
+
+If you add a work item and click ready before saving, the item will save and duplicate.
+
+Work Around
+1.  Click '+' to Add Work Item
+2.  Click Save
+3.  When ready, Click Work Item
+4.  Click 'Ready'
+
+The QWE will take it from there and alert you when the item is ready for review.
+
+
+### Workflows
+
+Currently, only Kanban-QA is supported.  The other workflows will be available after the beta release.
